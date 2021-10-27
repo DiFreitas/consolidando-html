@@ -43,7 +43,6 @@ nav a:hover{
     font-size: 2em;
     margin:0 0 1em;
     clear: left;
-    color: rgba(0,0,0,0.3)
 }
 .principal{
     padding:3em 0;
@@ -76,15 +75,18 @@ nav a:hover{
     font-weight:bold;
 }
 .itens:before{
-    content:"✭ ";
+    content:"🟊 ";
 }
 .imagem-beneficios{
     width:60%;
     opacity:1;
     transition: 400ms;
+    box-shadow: 3px 3px 3px #000000;
+    
 }
 .imagem-beneficios:hover{
-    opacity:0.3;
+    box-shadow: 10px 10px 10px #000000;
+    transform:translate(-5px, -5px);
 }
 .utensilios{
     width:120px;
