@@ -240,7 +240,9 @@ td, th{
         padding:50px 0;
     }
     .produtos li{
-        width:auto;  
+        width:auto;
+        margin:10px 15px;
+        display:block;
     }
     .enviar{
         font-size:15px;
